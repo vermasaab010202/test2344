@@ -1,0 +1,17 @@
+{
+  "name": "mcq-practice-app",
+  "version": "1.0.0",
+  "description": "MCQ Practice Platform - Mobile Optimized",
+  "main": "index.html",
+  "scripts": {
+    "build": "capacitor sync android && cd android && ./gradlew assembleRelease"
+  },
+  "keywords": ["mcq", "quiz", "practice", "education"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^5.5.1",
+    "@capacitor/core": "^5.5.1",
+    "@capacitor/cli": "^5.5.1"
+  }
+}
